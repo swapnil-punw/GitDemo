@@ -6,7 +6,7 @@ class HomePage:
     def __init__(self, driver):
         self.driver = driver
 
-    shop = (By.XPATH, "//a[contains(text(), 'Shop')]")
+    # shop = (By.XPATH, "//a[contains(text(), 'Shop')]")
     checkOut = (By.XPATH, "//a[@class = 'nav-link btn btn-primary']")
     gettittles = (By.XPATH, "//div [@class='card h-100']")
 

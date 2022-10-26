@@ -15,8 +15,8 @@ from selenium.webdriver.support.wait import WebDriverWait
 class TestOne(BaseClass):
     def test_e2e(self):
         homePage = HomePage(self.driver)
-        homePage.shopItem().click()
-        # self.driver.find_element(By.XPATH, "//a[contains(text(), 'Shop')]").click()
+        # homePage.shopItem().click()
+        self.driver.find_element(By.XPATH, "//a[contains(text(), 'Shop')]").click()
         # mobiles = self.driver.find_elements(By.XPATH, "//div [@class='card h-100']")
         mobiles = homePage.getTittles()
         for mobile in mobiles:

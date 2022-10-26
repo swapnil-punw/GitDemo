@@ -823,3 +823,17 @@ JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't fin
 JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
 console.warn: LoginRecipes: "Falling back to a synchronous message for: https://rahulshettyacademy.com."
 1666678181120	Marionette	INFO	Stopped listening on port 54048
+1666770223038	geckodriver	INFO	Listening on 127.0.0.1:49905
+1666770226137	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "49906" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\punwa\\AppData\\Local\\Temp\\rust_mozprofileXzFQEN"
+1666770227033	Marionette	INFO	Marionette enabled
+1666770227039	Marionette	INFO	Listening on port 49917
+Read port: 49917
+WebDriver BiDi listening on ws://127.0.0.1:49906
+1666770227259	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\punwa\\AppData\\Local\\Temp\\rust_mozprofileXzFQEN\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:49906/devtools/browser/ce05b4d9-e6e5-491a-8d91-d9e1f1a6dfd7
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+JavaScript error: resource://gre/modules/XULStore.jsm, line 58: Error: Can't find profile directory.
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://rahulshettyacademy.com."
+1666770269262	Marionette	INFO	Stopped listening on port 49917
+!!! error running onStopped callback: TypeError: callback is not a function
